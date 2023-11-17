@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5299458628001917746
+  m_GuidHigh: 13806127837684811446
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5760353610907463217
+      m_GuidHigh: 4673764535776636560
+    m_SerializedTextureGuid:
+      m_GuidLow: 3802217150798578873
+      m_GuidHigh: 10787340775209969738
+    m_Size: {x: 0.4, y: 0.84129035}
+    m_SpecifySize: 1
+    m_Name: CoupleLight
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5477172281990799209
+      m_GuidHigh: 16780731108459331752
+    m_SerializedTextureGuid:
+      m_GuidLow: 12498867036077845263
+      m_GuidHigh: 387368739523328777
+    m_Size: {x: 0.4, y: 0.7114504}
+    m_SpecifySize: 1
+    m_Name: coureuse
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5003860913643847662
+      m_GuidHigh: 8256972734833579679
+    m_SerializedTextureGuid:
+      m_GuidLow: 6761063277513640134
+      m_GuidHigh: 7257108727384687179
+    m_Size: {x: 0.4, y: 0.34662923}
+    m_SpecifySize: 1
+    m_Name: ATlas
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4626861884992660204
+      m_GuidHigh: 17119899128600650918
+    m_SerializedTextureGuid:
+      m_GuidLow: 4617500635324071204
+      m_GuidHigh: 11807599844642722746
+    m_Size: {x: 0.16, y: 0.15594542}
+    m_SpecifySize: 1
+    m_Name: RobotKira
+    m_Texture: {fileID: 0}
