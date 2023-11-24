@@ -15,7 +15,7 @@ class RouteService : Service(){
 
 
 
-    private val key = "716d5b33-b8a5-4dc2-a6d7-d8e3a095a330"
+    private val key = "XXXXX"
 
     fun getRoute(lat1 : Double, lon1 : Double, lat2 : Double, lon2 : Double, callback : SearchRoute) {
 
