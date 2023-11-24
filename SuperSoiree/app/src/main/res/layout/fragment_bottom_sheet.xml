@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:backgroundTint="#00000000"
+
+    >
+    <FrameLayout
+        android:id="@+id/BottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.BottomSheetFragment"
+        android:background="@drawable/background_bottomsheet"
+
+        >
+
+          <TextView
+            android:id="@+id/pubName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:text="@string/hello_blank_fragment"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp" android:fontFamily="@font/asimovprinte"/>
+
+        <Button
+            android:id="@+id/start_pub_itinerary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="#00000000">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/container"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/pub_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pas de description pour ce bar"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#8D8D8D"
+                    android:fontFamily="@font/asimovprinte"
+
+                    />
+                <TextView
+                    android:id="@+id/hours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/pub_description"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Pas d'horaires d'ouverture renseignées"
+                    android:textColor="#8D8D8D"
+                    android:fontFamily="@font/asimovprinte"/>
+                <ImageButton
+                    android:id="@+id/fav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fav_off"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/hours"
+                    android:layout_marginEnd="45dp"
+                    android:backgroundTint="#00000000"
+
+
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

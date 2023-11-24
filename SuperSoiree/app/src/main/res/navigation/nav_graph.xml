@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/SecondFragment">
+
+    <fragment
+        android:id="@+id/AuthenticationFragment"
+        android:name="com.example.supersoiree.Authentication"
+        android:label="authentication fragment"
+        tools:layout="@layout/fragment_authentication"
+        >
+        <action
+            android:id="@+id/action_athentication_to_SecondFragment"
+            app:destination="@id/SecondFragment"/>
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.supersoiree.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+        <action
+            android:id="@+id/action_Map_to_Favs"
+            app:destination="@+id/FirstFragment"/>
+        <action
+            android:id="@+id/passCoord"
+            app:destination="@+id/BottomSheet"/>
+    </fragment>
+    <fragment
+        android:id="@+id/BottomSheet"
+        android:name="com.example.supersoiree.ui.BottomSheetFragment"
+        android:label="bottom sheet"
+        tools:layout="@layout/fragment_bottom_sheet">
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/FavouritesFragment"
+        android:name="com.example.supersoiree.FavouritesFragment"
+        tools:layout="@layout/fragment_favourites">
+
+    </fragment>
+</navigation>
